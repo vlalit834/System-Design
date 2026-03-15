@@ -1,0 +1,53 @@
+oops object orientated language
+
+class is blue print of the real world entity which will define property(attributes) and behaviour(method)
+
+object is the instance of class
+
+
+class will give structure and design
+while object bring that structure to life with specific data which is unique to that specific object
+it is modular ,reusable ,scalable
+
+
+constructor and its types
+
+constructor which will initialize the object at time when it was initiated
+
+constructor have same name as class name
+automatically invoked when object is created
+
+ 1.Default constructor will initialize default values to the attribute
+
+ 2.Parameter constructor will initialize  values to the attribute which we will provide
+
+ 3.Copy constructor used other object to initialize a new object
+
+ 4.Private constructor restrict object creation from outside the class. It is commonly used in singleton design pattern
+
+can a constructor be final,static, abstract
+
+1. final it cannot be inherited so final is irrelevant
+2. static constructor belong to object not the class
+3. abstract constructor must be concrete so it must have its implementation
+
+synchronized keyword in constructor not make sense as object level synchronization is not applicable before the object is fully created
+
+can a constructor be inherited ?
+
+no constructor are not inherited but a subclass can call the superclass constructor using super()
+
+constructor have return statement but not a value
+
+this keyword
+
+1. differentiate b/w the instance variable and method,constructor parameter
+2. constructor chaining
+3. method chaining can be achieved by returning the current object
+4. passing the current object in the function
+
+
+disadvantages
+this keyword don't work with static method as static method belong to class not to object and it will be having conflicting behavior
+
+overuse can reduce clarity which cause confusion
